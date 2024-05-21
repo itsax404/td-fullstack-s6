@@ -1,0 +1,29 @@
+.product {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    margin: 10px 0;
+}
+
+.product-name {
+    flex: 1;
+}
+
+.product-owner {
+    flex: 1;
+    text-align: center;
+}
+
+.product-bid{
+    flex: 1;
+    margin-right: 10px;
+    text-align: right;
+}
+
+.product-bid::after{
+    content: " €";
+}
+
+.bid-button{
+    flex: 2;
+}
